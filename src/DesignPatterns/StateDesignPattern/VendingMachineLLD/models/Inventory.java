@@ -19,7 +19,7 @@ public class Inventory {
     public void initializeEmptyInventory() {
         int startCode = 101;
         for(int i = 0; i < inventory.length; i++) {
-            ItemShelf itemShelf = new ItemShelf(101, null);
+            ItemShelf itemShelf = new ItemShelf(startCode, null);
             itemShelf.setSoldOut(true);
             inventory[i] = itemShelf;
             startCode++;
