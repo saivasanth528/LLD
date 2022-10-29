@@ -8,7 +8,4 @@ public class Main {
         Vehicle vehicle1 = new MahindraTarVehicle();
         vehicle1.drive();
     }
-
-
-
 }
